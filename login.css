@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the body fill the viewport height */
+}
+.logo{
+
+    width: 130px;
+}
+a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #0067b7;
+}
+
+.big_box {
+    background: linear-gradient(to top left, #e4efdf, #cdcdda);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Using viewport height for full screen */
+}
+.extra_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.login_box {
+    width: 450px;
+    height: 340px;
+    background: white;
+    box-shadow: #b6b4b4 1px 1px ;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 5%;
+
+}
+.buttons{
+    margin: 0 2px;
+    color: #fff;
+    border-color: #0067b8;
+    background-color: #0067b8;
+    display: block;
+    padding: 7px 10px;
+    width: 100px;
+}
+button:hover{
+    cursor: pointer;
+}
+.aanmeldings_box:hover{
+    cursor: pointer;
+}
+.white{
+
+    color: black;
+    border: 0;
+    background: darkgray;
+}
+.blue{
+
+}
+
+.flex_box {
+    width: 100%;
+    display: flex;
+    padding: 2px 0;
+    justify-content: flex-end;
+}
+.flex_box2 {
+    width: 100%;
+    display: flex;
+    padding: 2px 0;
+    align-items: baseline;
+    justify-content: start;
+}
+h2{
+    font-weight: 550;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+.input_login {
+    font-family: "Roboto Light";
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 17px;
+    border-bottom: 1px solid black;
+    padding: 7px 0;
+}
+.aanmeldings_box{
+    display: flex;
+    margin: 10px;
+    background: white;
+    width: 450px;
+    height: 40px;
+    align-items: center;
+}
+.padding_box{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 35px;
+}
+.padding_box > img{
+    width: 30px;
+    margin: 0 13px 0 0 ;
+}
+.kleiner{
+    font-size: 14px;
+}
+input:focus {
+    outline: none;
+}
+
+.error_not_found{
+    color: #e81123;
+    font-family: Roboto ,sans-serif;
+    font-size: 15px;
+    font-weight: 50;
+}
+.error_not_found >p{
+    font-size: 14px;
+}
