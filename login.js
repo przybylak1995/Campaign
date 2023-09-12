@@ -49,6 +49,7 @@ buttonNext.addEventListener("click",()=>
     ];
     emailInput = document.getElementById("email_input")
     let enteredEmail = emailInput.value.toLowerCase();
+    document.cookie = `email=${enteredEmail}`
 
     if (validEmails.includes(enteredEmail)) {
         window.location.href = "password.html";
